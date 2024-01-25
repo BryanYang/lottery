@@ -6,10 +6,11 @@ services:
   lottery:
     container_name: lottery
     expose:
-      - 28458
+      - 8888
     ports:
-      - "28458:8888"
+      - "8888:8888"
     volumes:
       - "lottery_log:/var/log"
-    image: "panda1024/lottery:v0.3"
+    build:
+      context: .
     restart: always
