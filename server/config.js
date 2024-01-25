@@ -15,7 +15,7 @@ const prizes = [
   },
   {
     type: 2,
-    count: 34,
+    count: 35,
     text: "一等奖",
     title: "",
     img: "../img/secrit.jpg"
