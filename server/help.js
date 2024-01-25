@@ -6,7 +6,6 @@ let cwd = path.join(__dirname, "cache");
 if (!fs.existsSync(cwd)) {
   fs.mkdirSync(cwd);
 }
-
 /**
  * 读取缓存的数据内容
  */
